@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Info meta tags, important for social media + SEO -->
+    <title>Gridcraft - Official Website</title>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <meta name="description"
+          content="Gridcraft is the worlds most advanced Minecraft server. Join at 'play.gridmc.io'.">
+    <meta property="og:title" content="Gridcraft - Official Portal">
+    <meta property="og:site_name" content="Gridcraft">
+    <meta property="og:description"
+          content="Gridcraft is the worlds most advanced Minecraft server. Join at 'play.gridmc.io'.">
+    <meta property="og:image" content="https://i.imgur.com/xqI5bME.jpg">
+    <meta property="og:url" content="https://play.gridmc.io/">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+
+</head>
+
+<header class="video-header">
+    <div class="overlay"></div>
+    <video src="./video/BG.webm" autoplay loop playsinline muted></video>
+    <div class="viewport-header">
+    </div>
+</header>
+
+<body>
+<div class="container centered">
+
+    <div class="logo">
+        <img src="img/gridcraft_hover_650.png" alt="Gridcraft Logo">
+    </div>
+
+    <div class="row">
+        <div class="items">
+            <a href="https://www.discord.gg/dnp3" class="item discord col-sm-3">
+                <div class="video">
+                    <video loop muted playsinline src="video/discord.webm" class="img-fluid"></video>
+                    <p class="subtitle">Join our</p>
+                    <p class="title">Discord</p>
+                </div>
+            </a>
+
+            <a href="http://store.gridmc.io" class="item store col-sm-3">
+                <div class="video">
+                    <video loop muted playsinline src="video/store.webm"  class="img-fluid video-store"></video>
+                    <p class="subtitle">Visit</p>
+                    <p class="title">Store</p>
+                </div>
+            </a>
+
+            <a href="http://gridcraft.world" class="item vote col-sm-3">
+                <div class="video">
+                    <video loop muted playsinline src="video/knowledge_base.webm"  class="img-fluid video-knowledge"></video>
+
+                    <p class="subtitle">Gridcraft World</p>
+                    <p class="title">Knowledge</p>
+                </div>
+            </a>
+
+            <a href="https://gridgaming.atlassian.net/servicedesk/customer/portal/3" class="item support col-sm-3">
+                <div class="video">
+                    <video loop muted playsinline src="video/support.webm" class="img-fluid video-support"></video>
+
+                    <p class="subtitle">Contact</p>
+                    <p class="title">Support</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <div class="playercount">
+        <h2><a href="javascript:void(0);" onclick="copyServer(server_address)" style="color:white;">Join <span
+                class="sip" data-ip="mc.gridmc.io" data-port="25565">
+                0</span> other players on <span class="ip"><span class='highlight'
+                                                                 id='server_address'>play.gridmc.io</span></span></a>
+        </h2>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="js/firefly.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+
+</body>
+<script>
+    var viewportHeader = document.querySelector(".viewport-header");
+
+    document.body.addEventListener("scroll", function (event) {
+        var opacity = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
+        var scale = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
+        document.documentElement.style.setProperty('--headerOpacity', opacity);
+        document.documentElement.style.setProperty('--headerScale', scale);
+    });
+
+</script>
+<script>
+        var figure = $(".video").hover( hoverVideo, hideVideo );
+
+        function hoverVideo(e) {
+            $('video', this).get(0).play();
+        }
+
+        function hideVideo(e) {
+            $('video', this).get(0).pause();
+        }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</html>

@@ -1,0 +1,335 @@
+* {
+	box-sizing: border-box;
+}
+
+.home-banner .slide .video-slide {
+  background-color: #000; }
+
+
+.home-banner.loading .video-background {
+  opacity: 0; }
+
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding-top: 56.25%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: 2s opacity ease;
+  transition: 2s opacity ease;
+  opacity: 1; }
+
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
+
+
+header.video-header .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: black;
+    opacity: 0.5;
+}
+
+
+body {
+	/*Want to change background image?*/
+	/*Upload a new one to the img folder.*/
+	/*Make sure you name it 'minecraft.jpg'*/
+	/*background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),*/
+	/*			url("../img/gridcraft_portal.jpg") no-repeat center center fixed;*/
+	background-size: cover;
+	font-family: "Open Sans", Helvetica;
+	margin: 0;
+	position: relative;
+	z-index: 3;
+}
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	padding: 3px;
+}
+
+.container {
+	text-align: center;
+	width:100% !important;
+
+}
+
+.centered {
+  position: fixed;
+}
+
+.logo img {
+	width:80%;
+	height:auto;
+	width: 275px;
+	-webkit-animation-name: logo;
+	        animation-name: logo;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+}
+
+
+
+@-webkit-keyframes logo {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.07);
+		        transform: scale(1.07);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+
+@keyframes logo {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.07);
+		        transform: scale(1.07);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+.playercount {
+	background-color: rgba(68, 68, 68, .50);
+	bottom: 0;
+	display:inline-block;
+	box-shadow: inset 0 0 8px;
+	font-size: 14px;
+	height: 38px;
+	left: 20px;
+	line-height: 34px;
+	margin: 20px 15px 0 15px;
+	/*position: absolute;*/
+	right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+	text-align: center;
+	/*width: 550px;*/
+	font-family: 'Londrina Solid', cursive;
+	/*width:100%;*/
+	/*text-transform: uppercase;*/
+	color:white;
+
+}
+
+.highlight {
+	color: #5afefe
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.playercount h2 {
+	color: #eee;
+	font-family: 'Londrina Solid', cursive;
+    font-size: x-large;
+    margin: 0;
+    text-shadow: -1px 0 0 #000, 0 -1px 0 #000, 1px 0 0 #000, 0 1px 0 #000, 0 0 2px #000;
+}
+
+
+.playercount > p > span {
+	font-weight: bold;
+	padding: 1px 4px;
+	border-radius: 3px;
+	color:ghostwhite;
+	background: rgba(67, 232, 251, 0.1);
+	margin: 0 2px;
+}
+
+.extrapad {
+	padding: 0;
+}
+
+.ip {
+	cursor: pointer;
+}
+
+.items {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-preferred-size: 100px;
+	    flex-basis: 100px;
+	padding: 18px 0 10px 0;
+
+}
+
+
+
+
+.item video {
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	margin-bottom: 7px;
+	width:80%;
+}
+
+.item img {
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	margin-bottom: 7px;
+	width:80%;
+}
+
+.item img:hover {
+	-webkit-transform:scale(1.1);
+	    -ms-transform:scale(1.1);
+	        transform:scale(1.1);
+}
+
+.img {
+	width: 80%;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 22px;
+	font-family: 'Londrina Solid', cursive;
+	color: white;
+	text-transform:uppercase;
+
+}
+
+.subtitle {
+	color: #cfcfcf;
+	font-size: 13px;
+	/*text-transform:uppercase;*/
+}
+
+.title,
+.subtitle {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+@media(min-width: 400px) {
+	.logo img {
+		width: 550px; /* Change image size for mid sized devices */
+	}
+
+	.playercount {
+		margin-top: 30px;
+		padding: 5px;
+	}
+
+	.playercount > p > span {
+		padding: 2px 7px;
+	}
+}
+
+@media(min-width: 1250px) {
+	.title {
+		font-size: 24px;
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+
+	.logo img {
+		width: 650px; /* Change image size for desktop */
+	}
+
+	.logo {
+		margin-bottom: 28px;
+	}
+	.img {
+		width: 100%;
+	}
+	.items {
+		width:100%;
+		padding: 30px 0 20px 0;
+	}
+	.playercount {
+		font-size: 1.22em;
+		/*padding: 10px;*/
+	}
+
+	.extrapad {
+		padding: 0 42.5px;
+	}
+
+	.playercount > p > span {
+		padding: 4px 7px;
+	}
+}
+
+@media(min-width: 1000px) {
+	.items {
+		width:100%;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+
+	.item:not(:first-child) {
+		margin-left: 90px;
+	}
+}
