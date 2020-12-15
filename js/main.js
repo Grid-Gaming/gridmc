@@ -37,7 +37,7 @@ $(document).on("click","server_address",()=>{
 	document.execCommand("copy");
 	$("server_address").html("<span class='extrapad'>IP copied!</span>");
 	setTimeout(function(){
-		$(".ip").html(t);
+		$("server_address").html(t);
 		var copy = document.getElementById("ta");
 		copy.parentNode.removeChild(copy);
 	},800);
