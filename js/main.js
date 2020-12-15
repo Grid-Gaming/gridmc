@@ -23,7 +23,7 @@ if (doParticles) {
 // This is for the click to copy
 let t;
 $(document).ready(()=>{
-	t = $("#server_address").html();
+	t = $(".ip").html();
 })
 $(document).on("click","server_address",()=>{
 	let copy = document.createElement("textarea");
