@@ -23,9 +23,9 @@ if (doParticles) {
 // This is for the click to copy
 let t;
 $(document).ready(()=>{
-	t = $(".ip").html();
+	t = $("#server_address").html();
 })
-$(document).on("click",".ip",()=>{
+$(document).on("click","server_address",()=>{
 	let copy = document.createElement("textarea");
 	copy.style.position = "absolute";
 	copy.style.left = "-99999px";
@@ -35,7 +35,7 @@ $(document).on("click",".ip",()=>{
 	copy.textContent = t;
 	copy.select();
 	document.execCommand("copy");
-	$(".ip").html("<span class='extrapad'>IP copied!</span>");
+	$("server_address").html("<span class='extrapad'>IP copied!</span>");
 	setTimeout(function(){
 		$(".ip").html(t);
 		var copy = document.getElementById("ta");
