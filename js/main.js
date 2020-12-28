@@ -25,7 +25,7 @@ let t;
 $(document).ready(()=>{
 	t = $(".ip").html();
 })
-$(document).on("click","server_address",()=>{
+$(document).on("click",".ip",()=>{
 	let copy = document.createElement("textarea");
 	copy.style.position = "absolute";
 	copy.style.left = "-99999px";
@@ -37,7 +37,7 @@ $(document).on("click","server_address",()=>{
 	document.execCommand("copy");
 	$("server_address").html("<span class='extrapad'>IP copied!</span>");
 	setTimeout(function(){
-		$("server_address").html(t);
+		$(".ip").html(t);
 		var copy = document.getElementById("ta");
 		copy.parentNode.removeChild(copy);
 	},800);
