@@ -1,0 +1,41 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "793054221359382578",
+        "smallImageText": "GridCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "",
+    "servers": [
+        {
+            "id": "GridCraft-1.16.4-Survival",
+            "name": "GridCraft Survival",
+            "description": "Survival GridCraft server. Connect to enter the server.",
+            "icon": "",
+            "version": "1.0.0",
+            "address": "play.gridmc.io",
+            "minecraftVersion": "1.16.4",
+            "discord": {
+                "shortId": "survival",
+                "largeImageText": "GridCraft Survival Server",
+                "largeImageKey": "vote_hd"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge-1.16.4-35.1.4",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 135279,
+                        "MD5": "4F2C1965432690C5749A144EE1DB20FE",
+                        "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-universal.jar"
+                    }
+
+        }
+    ]
+}
