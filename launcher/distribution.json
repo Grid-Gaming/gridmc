@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "discord": {
         "clientId": "793054221359382578",
-        "smallImageText": "GridCraft",
+        "smallImageText": "Gridcraft",
         "smallImageKey": "seal-circle"
     },
     "java": {
@@ -11,16 +11,16 @@
     "rss": "",
     "servers": [
         {
-            "id": "GridCraft-1.16.4-Survival",
-            "name": "GridCraft Survival",
-            "description": "Survival GridCraft server. Connect to enter the server.",
+            "id": "Gridcraft-1.16.4-Survival",
+            "name": "Gridcraft Survival",
+            "description": "Survival Gridcraft server. Connect to enter the server.",
             "icon": "",
             "version": "1.0.0",
             "address": "play.gridmc.io",
             "minecraftVersion": "1.16.4",
             "discord": {
                 "shortId": "survival",
-                "largeImageText": "GridCraft Survival Server",
+                "largeImageText": "Gridcraft Survival Server",
                 "largeImageKey": "vote_hd"
             },
             "mainServer": true,
