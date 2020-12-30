@@ -4,14 +4,14 @@
   "discord": {
     "clientId": "793054221359382578",
     "smallImageText": "Gridcraft",
-    "smallImageKey": "bottomheart"
+    "smallImageKey": "portal_hd"
   },
   "servers": [
     {
       "id": "Gridcraft-1.16.4",
       "name": "Gridcraft (Minecraft 1.16.4)",
       "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": null,
+      "icon": "https://gridmc.io/launcher/icon.ico",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.16.4",
