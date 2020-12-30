@@ -9,19 +9,19 @@
   "servers": [
     {
       "id": "Gridcraft-1.16.4",
-      "name": "Gridcraft Towny (Minecraft 1.16.4)",
+      "name": "Gridcraft (Minecraft 1.16.4)",
       "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": "https://cdn.discordapp.com/attachments/765664093993566208/793408003943563264/bottomheart.png",
+      "icon": null,
       "version": "1.0.0",
-      "address": "play.gridmc.io",
+      "address": "localhost:25565",
       "minecraftVersion": "1.16.4",
       "discord": {
-        "shortId": "793054221359382578",
-        "largeImageText": "GridCraft Survival Server",
+        "shortId": "Gridcraft Survival",
+        "largeImageText": "Gridcraft Survival Server",
         "largeImageKey": "vote_hd"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.16.4-35.1.4",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "ef422318dbeca645e468a4547549db64",
+                "MD5": "ecf36b60236a06b3d31fb2bd0bb2f611",
                 "url": "https://gridmc.io/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -341,6 +341,28 @@
             "size": 5770052,
             "url": "https://gridmc.io/servers/Gridcraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
             "MD5": "4eee5912a68bcbbff1c6bb3c8477461d"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.281 Medium.zip",
+          "name": "Sildurs Vibrant Shaders v1.281 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 143726,
+            "url": "https://gridmc.io/servers/Gridcraft-1.16.4/files/shaders/Sildurs%20Vibrant%20Shaders%20v1.281%20Medium.zip",
+            "MD5": "e286cdd02113a4b178398a85705a65c8",
+            "path": "shaders/Sildurs Vibrant Shaders v1.281 Medium.zip"
+          }
+        },
+        {
+          "id": "Sora_Shaders_1.12.zip",
+          "name": "Sora_Shaders_1.12.zip",
+          "type": "File",
+          "artifact": {
+            "size": 9029171,
+            "url": "https://gridmc.io/servers/Gridcraft-1.16.4/files/shaders/Sora_Shaders_1.12.zip",
+            "MD5": "760d6f71c1baa1e7ce2fa26e5aed9dbc",
+            "path": "shaders/Sora_Shaders_1.12.zip"
           }
         }
       ]
