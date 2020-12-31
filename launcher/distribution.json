@@ -2,23 +2,23 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "793054221359382578",
+    "smallImageText": "Gridcraft",
+    "smallImageKey": "bottomheart"
   },
   "servers": [
     {
       "id": "Gridcraft-1.16.4",
       "name": "Gridcraft (Minecraft 1.16.4)",
       "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": null,
+      "icon": "https://gridmc.io/launcher/icon.ico",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "play.gridmc.io:25565",
       "minecraftVersion": "1.16.4",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Gridcraft Survival",
+        "largeImageText": "Gridcraft Survival Server",
+        "largeImageKey": "vote_hd"
       },
       "mainServer": false,
       "autoconnect": false,
