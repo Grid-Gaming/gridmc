@@ -2,26 +2,26 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "793054221359382578",
-    "smallImageText": "Gridcraft",
-    "smallImageKey": "bottomheart"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
       "id": "Gridcraft-1.16.4",
       "name": "Gridcraft (Minecraft 1.16.4)",
       "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": "https://gridmc.io/launcher/icon.ico",
+      "icon": null,
       "version": "1.0.0",
-      "address": "play.gridmc.io:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.16.4",
       "discord": {
-        "shortId": "Gridcraft Survival",
-        "largeImageText": "Gridcraft Survival Server",
-        "largeImageKey": "vote_hd"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.16.4-35.1.4",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "b3a61a8d58ce90bc632b7371d67a6a2a",
+                "MD5": "46365d07d90d629cf913a2b600b97773",
                 "url": "https://gridmc.io/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -321,19 +321,6 @@
           ]
         },
         {
-          "id": "com.legacy:blood_particles:1.0.1@jar",
-          "name": "Blood Particles",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6624,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/optionalon/blood-particles-1.16.3-1.0.1.jar",
-            "MD5": "e6a0e6f5e64a3bfc4312be015ad6ec1c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.blamejared:controlling:7.0.0.11@jar",
           "name": "Controlling",
           "type": "ForgeMod",
@@ -344,16 +331,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "com.hancinworld.fw:fullscreenwindowed:1.12-1.6.0@jar",
-          "name": "FullscreenWindowed",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 18396,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/required/FullscreenWindowed-1.12-1.6.0.jar",
-            "MD5": "c7679200bdf1f6cb71361555407a4c7f"
           }
         },
         {
@@ -403,28 +380,6 @@
             "size": 5770052,
             "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
             "MD5": "4eee5912a68bcbbff1c6bb3c8477461d"
-          }
-        },
-        {
-          "id": "Sildurs Vibrant Shaders v1.281 Medium.zip",
-          "name": "Sildurs Vibrant Shaders v1.281 Medium.zip",
-          "type": "File",
-          "artifact": {
-            "size": 143726,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/files/shaders/Sildurs%20Vibrant%20Shaders%20v1.281%20Medium.zip",
-            "MD5": "e286cdd02113a4b178398a85705a65c8",
-            "path": "shaders/Sildurs Vibrant Shaders v1.281 Medium.zip"
-          }
-        },
-        {
-          "id": "Sora_Shaders_1.12.zip",
-          "name": "Sora_Shaders_1.12.zip",
-          "type": "File",
-          "artifact": {
-            "size": 9029171,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/files/shaders/Sora_Shaders_1.12.zip",
-            "MD5": "760d6f71c1baa1e7ce2fa26e5aed9dbc",
-            "path": "shaders/Sora_Shaders_1.12.zip"
           }
         }
       ]
