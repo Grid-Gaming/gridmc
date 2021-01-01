@@ -11,7 +11,7 @@
       "id": "Gridcraft-1.16.4",
       "name": "Gridcraft (Minecraft 1.16.4)",
       "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": "https://gridmc.io/launcher/icon.ico",
+      "icon":  "https://gridmc.io/launcher/icon.ico",,
       "version": "1.0.0",
       "address": "play.gridmc.io:25565",
       "minecraftVersion": "1.16.4",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "46365d07d90d629cf913a2b600b97773",
+                "MD5": "58d154f0cde57a545aaeebfaf9d447e1",
                 "url": "https://gridmc.io/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -321,32 +321,6 @@
           ]
         },
         {
-          "id": "com.blamejared:controlling:7.0.0.11@jar",
-          "name": "Controlling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 40599,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/optionalon/Controlling-7.0.0.11.jar",
-            "MD5": "d4737a403ed2eeaa7ad6cf182ee27000"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "dlovin.inventoryhud:inventoryhud:3.1.4@jar",
-          "name": "Inventory HUD+(Forge edition)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 100045,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/optionalon/InventoryHud_1.16.x.forge-3.1.4.jar",
-            "MD5": "cdf08e32d946e0246ab5e9b1a6512a2d"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "mezz.jei:jei:7.6.0.62@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
@@ -380,6 +354,17 @@
             "size": 5770052,
             "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
             "MD5": "4eee5912a68bcbbff1c6bb3c8477461d"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3135,
+            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/files/options.txt",
+            "MD5": "83c2e90305b71d32a7dc69b13c3a088d",
+            "path": "options.txt"
           }
         }
       ]
