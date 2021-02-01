@@ -2,23 +2,23 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "793054221359382578",
-    "smallImageText": "Gridcraft",
-    "smallImageKey": "bottomheart"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "Gridcraft-1.16.4",
-      "name": "Gridcraft (Minecraft 1.16.4)",
-      "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
+      "id": "GridCraft-1.16.4",
+      "name": "GridCraft (Minecraft 1.16.4)",
+      "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.4)",
       "icon": null,
       "version": "1.0.0",
-      "address": "mc.gridmc.io:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.16.4",
       "discord": {
-        "shortId": "Gridcraft Survival",
-        "largeImageText": "Gridcraft Survival Server",
-        "largeImageKey": "vote_hd"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "084dc5f178eb6eb3d0a33395d621a382",
+                "MD5": "c2be6259665e83c62ad174cc4fca1968",
                 "url": "https://gridmc.io/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -326,7 +326,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 774759,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/optionalon/jei-1.16.4-7.6.0.62.jar",
+            "url": "https://gridmc.io/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/jei-1.16.4-7.6.0.62.jar",
             "MD5": "de88b2ab3b0a7631c88aade5b7aa04ba"
           },
           "required": {
@@ -339,7 +339,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 232279,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/optionalon/JustEnoughResources-1.16.4-0.12.0.103.jar",
+            "url": "https://gridmc.io/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/JustEnoughResources-1.16.4-0.12.0.103.jar",
             "MD5": "b6a8822645fdb0063fd83333a679744d"
           },
           "required": {
@@ -347,13 +347,35 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.16.4_HD_U_G5@jar",
+          "id": "net.optifine:optifine:1.16.4_HD_U_G6@jar",
           "name": "OptiFine",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5770052,
-            "url": "https://gridmc.io/launcher/servers/Gridcraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
-            "MD5": "4eee5912a68bcbbff1c6bb3c8477461d"
+            "size": 5835669,
+            "url": "https://gridmc.io/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G6.jar",
+            "MD5": "88e030a34aa9ec98904cca3691c853fb"
+          }
+        },
+        {
+          "id": "BSL_v7.2.01pre2.zip",
+          "name": "BSL_v7.2.01pre2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 912015,
+            "url": "https://gridmc.io/launcher/servers/GridCraft-1.16.4/files/shaderpacks/BSL_v7.2.01pre2.zip",
+            "MD5": "a3144217872344b285b724c8bcd2ecd2",
+            "path": "shaderpacks/BSL_v7.2.01pre2.zip"
+          }
+        },
+        {
+          "id": "SEUS-Renewed-v1.0.1.zip",
+          "name": "SEUS-Renewed-v1.0.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7062638,
+            "url": "https://gridmc.io/launcher/servers/GridCraft-1.16.4/files/shaderpacks/SEUS-Renewed-v1.0.1.zip",
+            "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
+            "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip"
           }
         }
       ]

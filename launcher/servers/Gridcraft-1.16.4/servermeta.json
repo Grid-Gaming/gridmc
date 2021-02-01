@@ -1,9 +1,9 @@
 {
-  "$schema": "file:///C:/Users/coope/OneDrive/Desktop/stupid/Rott/schemas/ServerMetaSchema.schema.json",
+  "$schema": "file:///C:/Users/coope/Desktop/root/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Gridcraft (Minecraft 1.16.4)",
-    "description": "Gridcraft Running Minecraft 1.16.4 (Forge v35.1.4)",
+    "name": "GridCraft (Minecraft 1.16.4)",
+    "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.4)",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
