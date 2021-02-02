@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "GridCraft (Minecraft 1.16.4)",
-    "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.4)",
+    "description": "GridCraft Running Minecraft 1.16.4",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,9 +12,6 @@
     },
     "mainServer": false,
     "autoconnect": false
-  },
-  "forge": {
-    "version": "35.1.4"
   },
   "untrackedFiles": []
 }
