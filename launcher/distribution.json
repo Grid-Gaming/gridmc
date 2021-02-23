@@ -1,28 +1,356 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "https://gridmc.io/rss/",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "793054221359382578",
+    "smallImageText": "java.gridmc.io",
+    "smallImageKey": "bottomheart"
   },
   "servers": [
     {
       "id": "GridCraft-1.16.4",
       "name": "GridCraft (Minecraft 1.16.4)",
-      "description": "GridCraft Running Minecraft 1.16.4",
+      "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.37)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "java.gridmc.io",
       "minecraftVersion": "1.16.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "largeImageKey": "portal_1k"
       },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": []
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.4-35.1.37",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 210116,
+            "MD5": "a6e3b27b18be5a4daab54b3630d75700",
+            "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.4-35.1.37",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12888,
+                "MD5": "dac76df38347d0217cdb4d91acc0e22a",
+                "url": "http://https//gridmc.io/launcher/repo/versions/1.16.4-forge-35.1.37/1.16.4-forge-35.1.37.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.4-35.1.37:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2326479,
+                "MD5": "ac2c37d829d1e4c28d02cb2c35e110f3",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.4-35.1.37:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4089407,
+                "MD5": "f0d9dfc6228ddcefb35ca931a9f3a92a",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.4-20201102.104115:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352363,
+                "MD5": "7c9e0183f38d7f0dcb33d878c2d9214e",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.4-20201102.104115:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118628,
+                "MD5": "402c17481afa2f07a76cc90341730feb",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.4-20201102.104115:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8427976,
+                "MD5": "61ad6e5220c9da62f098d6decd638001",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.0",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121783,
+                "MD5": "e87284e4421437854ba938179cf803e7",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/ow2/asm/asm/9.0/asm-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.0",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 71646,
+                "MD5": "e84f4f465fe607932af0d9ca4b31bce5",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.0",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52673,
+                "MD5": "3798070ed795cf4aa7efd7f63feec2a2",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.0",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84857,
+                "MD5": "ddbcaa2262311e04a6b0560787b47da4",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.0",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33439,
+                "MD5": "daed5f6bc67ac8f01bebeca0bb72a369",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126196,
+                "MD5": "dae78c82a7ca7599ae6a10938cd22d58",
+                "url": "http://https//gridmc.io/launcher/repo/lib/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.0",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 1921,
+                "MD5": "c5c05d52fcef5479e0ea069f30c6ceb5",
+                "url": "http://https//gridmc.io/launcher/repo/lib/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.3",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25448,
+                "MD5": "b6b7ea171ec27fc5015bb5e3b79b696a",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/coremods/4.0.3/coremods-4.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.2",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "243fc0b7f1e509aaca3550c14d8f60af",
+                "url": "http://https//gridmc.io/launcher/repo/lib/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.2",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31152,
+                "MD5": "7b2339065e252b1c187d39351d84a09f",
+                "url": "http://https//gridmc.io/launcher/repo/lib/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.0",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 55051,
+                "MD5": "89e95013b11f347e48c0525965600404",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 266283,
+                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1629585,
+                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.2",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 935252,
+                "MD5": "1f0c4faa50360623e49b9c2522edc602",
+                "url": "http://https//gridmc.io/launcher/repo/lib/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194053,
+                "MD5": "975e4d1fe19775355426e302a21b11fd",
+                "url": "http://https//gridmc.io/launcher/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1/nashorn-core-compat-15.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.optifine:optifine:1.16.4_HD_U_G7@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5923611,
+            "url": "http://https//gridmc.io/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G7.jar",
+            "MD5": "fe84aad0d9056b19692dcb5db9d9f2c9"
+          }
+        }
+      ]
     }
   ]
 }
