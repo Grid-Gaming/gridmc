@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.16.4-35.1.4",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "f2d669a5449d509e836e9fa84ad761a0",
+                "MD5": "5dd6ed7ec3ce86d56c254b7d3ea35e61",
                 "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -319,6 +319,117 @@
               }
             }
           ]
+        },
+        {
+          "id": "me.ichun.mods:backtools:10.0.0@jar",
+          "name": "Back Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23749,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/BackTools-1.16.3-10.0.0.jar",
+            "MD5": "fa30dc84419a774644a3a91eaa5a574c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lumien.chunkanimator:chunkanimator:1.16.5-1.2.2@jar",
+          "name": "Chunk Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20150,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/ChunkAnimator-1.16.5-1.2.2.jar",
+            "MD5": "e34187a65575992986e6629a3c39b4f6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lain.mods:cleanview:1.16.4-v1@jar",
+          "name": "CleanView",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10055,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/CleanView-1.16.4-v1.jar",
+            "MD5": "99ecf3a6d694a4ceb18c86a1f9e9a301"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.blay09.mods:clienttweaks:5.2.0@jar",
+          "name": "Client Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28826,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/ClientTweaks_1.16.3-5.2.0.jar",
+            "MD5": "967a17f5f4918bd8d44222be4039618e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "chylex.customwindowtitle:customwindowtitle:1.1.0@jar",
+          "name": "Custom Window Title",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16957,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/CustomWindowTitle-1.15+v1.1.0.jar",
+            "MD5": "6eaa4d66bbef47bd6d4eeecf8263aeae"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.6.1.71@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 776266,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/jei-1.16.4-7.6.1.71.jar",
+            "MD5": "37f1a6cc8931c26e83b18d035259c3be"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel:lightoverlay:5.8.0@jar",
+          "name": "Light Overlay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91778,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/light-overlay-5.8.0.jar",
+            "MD5": "1f2ea4091d5e512e8599bac0ec8a7e7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.zekerzhayard:optiforge:0.4.6@jar",
+          "name": "OptiForge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181699,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiForge-MC1.16.4-0.4.6.jar",
+            "MD5": "43347d312953ac4df8e135d0d98866ae"
+          }
+        },
+        {
+          "id": "generated.forgemod:tweakeroo:fabric-1.16.4-0.10.0-dev.20210209.145902@jar",
+          "name": "Tweakeroo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 237557,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/tweakeroo-fabric-1.16.4-0.10.0-dev.20210209.145902.jar",
+            "MD5": "20269fabe09a85390b639a1d24821197"
+          },
+          "required": {
+            "value": false
+          }
         }
       ]
     }
