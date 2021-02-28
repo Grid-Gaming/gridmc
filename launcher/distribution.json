@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://gridmc.io/rss/",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -13,7 +13,7 @@
       "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.4)",
       "icon": null,
       "version": "1.0.0",
-      "address": "java.gridmc.io:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.16.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "5dd6ed7ec3ce86d56c254b7d3ea35e61",
+                "MD5": "87a8e7b7bb85428aceeddb4eb413273f",
                 "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -321,6 +321,16 @@
           ]
         },
         {
+          "id": "me.shedaniel:architectury:1.8.128@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 304108,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/architectury-1.8.128-forge.jar",
+            "MD5": "a44e5d0d9c2353467c92e4805d95d38b"
+          }
+        },
+        {
           "id": "me.ichun.mods:backtools:10.0.0@jar",
           "name": "Back Tools",
           "type": "ForgeMod",
@@ -373,6 +383,16 @@
           }
         },
         {
+          "id": "me.shedaniel.clothconfig:cloth-config:4.11.14@jar",
+          "name": "Cloth Config v4 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1338353,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/cloth-config-4.11.14-forge.jar",
+            "MD5": "d03c5c573494bb12020cb9054a7131e6"
+          }
+        },
+        {
           "id": "chylex.customwindowtitle:customwindowtitle:1.1.0@jar",
           "name": "Custom Window Title",
           "type": "ForgeMod",
@@ -380,6 +400,16 @@
             "size": 16957,
             "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/CustomWindowTitle-1.15+v1.1.0.jar",
             "MD5": "6eaa4d66bbef47bd6d4eeecf8263aeae"
+          }
+        },
+        {
+          "id": "me.ichun.mods:ichunutil:10.0.0@jar",
+          "name": "IChunUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 410344,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/iChunUtil-1.16.3-10.0.0.jar",
+            "MD5": "2a6662c649791d5a0ea290d3c190b410"
           }
         },
         {
@@ -416,19 +446,6 @@
             "size": 181699,
             "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiForge-MC1.16.4-0.4.6.jar",
             "MD5": "43347d312953ac4df8e135d0d98866ae"
-          }
-        },
-        {
-          "id": "generated.forgemod:tweakeroo:fabric-1.16.4-0.10.0-dev.20210209.145902@jar",
-          "name": "Tweakeroo",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 237557,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/tweakeroo-fabric-1.16.4-0.10.0-dev.20210209.145902.jar",
-            "MD5": "20269fabe09a85390b639a1d24821197"
-          },
-          "required": {
-            "value": false
           }
         }
       ]
