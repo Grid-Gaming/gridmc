@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///C:/Users/coope/OneDrive/Desktop/testrool/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///C:/Users/coope/Desktop/devgrid/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
