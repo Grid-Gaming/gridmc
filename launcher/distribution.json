@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "fbfa94de926036ba4296b6120f44fd6a",
+                "MD5": "46976d065915a3c07a2bc256c7451c19",
                 "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -344,6 +344,16 @@
           }
         },
         {
+          "id": "com.vladmarica:betterpingdisplay:1.0@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14413,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/BetterPingDisplay-1.16.4-1.0.jar",
+            "MD5": "9e9f2676651af6477abc715736ecb2ca"
+          }
+        },
+        {
           "id": "lumien.chunkanimator:chunkanimator:1.16.5-1.2.2@jar",
           "name": "Chunk Animator",
           "type": "ForgeMod",
@@ -400,6 +410,19 @@
             "size": 16957,
             "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/CustomWindowTitle-1.15+v1.1.0.jar",
             "MD5": "6eaa4d66bbef47bd6d4eeecf8263aeae"
+          }
+        },
+        {
+          "id": "generated.forgemod:hwyla:fabric-1.16.2-1.9.23-79@jar",
+          "name": "Hwyla",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 267781,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/Hwyla-fabric-1.16.2-1.9.23-79.jar",
+            "MD5": "72046a67875fc5747346effd9015adfb"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -475,9 +498,9 @@
           "type": "File",
           "artifact": {
             "size": 0,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/texts/splashes.txt",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/texts/splashes.txt",
             "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "path": "texturepacks/gridtxt/assets/minecraft/texts/splashes.txt"
+            "path": "resourcepacks/gridtxt/assets/minecraft/texts/splashes.txt"
           }
         },
         {
@@ -486,9 +509,9 @@
           "type": "File",
           "artifact": {
             "size": 1565799,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png",
             "MD5": "3e9feaf8c4abe5c3b0b6611abcb653e2",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png"
           }
         },
         {
@@ -497,9 +520,9 @@
           "type": "File",
           "artifact": {
             "size": 1709943,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png",
             "MD5": "46d546fb37c85991c5b4772e43ed9a9a",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png"
           }
         },
         {
@@ -508,9 +531,9 @@
           "type": "File",
           "artifact": {
             "size": 1504686,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png",
             "MD5": "0e6f9508d60aa52e9f2ac176bf1351a3",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png"
           }
         },
         {
@@ -519,9 +542,9 @@
           "type": "File",
           "artifact": {
             "size": 1589989,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png",
             "MD5": "c850e5468f8b4498616f17b2a487efa8",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png"
           }
         },
         {
@@ -530,9 +553,9 @@
           "type": "File",
           "artifact": {
             "size": 688446,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png",
             "MD5": "2db2c5b91aba4ba293a33503a2c60bce",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png"
           }
         },
         {
@@ -541,9 +564,9 @@
           "type": "File",
           "artifact": {
             "size": 1530697,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png",
             "MD5": "18d74909523cf629c9c9ce1604e71e8e",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png"
           }
         },
         {
@@ -552,9 +575,9 @@
           "type": "File",
           "artifact": {
             "size": 86,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
             "MD5": "6f0586674230fea965409aed8ae43815",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
           }
         },
         {
@@ -563,9 +586,9 @@
           "type": "File",
           "artifact": {
             "size": 16292,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png",
             "MD5": "b04aaa3ba1e51c2435ccd5a68527501e",
-            "path": "texturepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png"
+            "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png"
           }
         },
         {
@@ -574,9 +597,9 @@
           "type": "File",
           "artifact": {
             "size": 112,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/pack.mcmeta",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/pack.mcmeta",
             "MD5": "0008891e3125fbecdffe54d60f81f4d6",
-            "path": "texturepacks/gridtxt/pack.mcmeta"
+            "path": "resourcepacks/gridtxt/pack.mcmeta"
           }
         },
         {
@@ -585,9 +608,9 @@
           "type": "File",
           "artifact": {
             "size": 25742,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/texturepacks/gridtxt/pack.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/pack.png",
             "MD5": "2c1a5ce3a7ab9110f80cc262e3bd3f31",
-            "path": "texturepacks/gridtxt/pack.png"
+            "path": "resourcepacks/gridtxt/pack.png"
           }
         }
       ]
