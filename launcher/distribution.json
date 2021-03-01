@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "927f3692bf8cd9402b919d156e9a6b52",
+                "MD5": "fbfa94de926036ba4296b6120f44fd6a",
                 "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -449,16 +449,6 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.16.4_HD_U_G7@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5923611,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G7%20(1).jar",
-            "MD5": "fe84aad0d9056b19692dcb5db9d9f2c9"
-          }
-        },
-        {
           "id": "io.github.zekerzhayard:optiforge:0.4.6@jar",
           "name": "OptiForge",
           "type": "ForgeMod",
@@ -466,6 +456,17 @@
             "size": 181699,
             "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiForge-MC1.16.4-0.4.6.jar",
             "MD5": "43347d312953ac4df8e135d0d98866ae"
+          }
+        },
+        {
+          "id": "OptiFine_1.16.4_HD_U_G7.jar",
+          "name": "OptiFine_1.16.4_HD_U_G7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5923611,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/mods/OptiFine_1.16.4_HD_U_G7.jar",
+            "MD5": "fe84aad0d9056b19692dcb5db9d9f2c9",
+            "path": "mods/OptiFine_1.16.4_HD_U_G7.jar"
           }
         },
         {
