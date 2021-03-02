@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "46976d065915a3c07a2bc256c7451c19",
+                "MD5": "0a73c45873b79d731683c41838c3f0d0",
                 "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -426,6 +426,16 @@
           }
         },
         {
+          "id": "mcp.mobius:waila:1.10.11-B78_1.16.2@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 175464,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/Hwyla-forge-1.10.11-B78_1.16.2.jar",
+            "MD5": "1bd70c1ad7614bb2df8c95a85ade97eb"
+          }
+        },
+        {
           "id": "me.ichun.mods:ichunutil:10.0.0@jar",
           "name": "IChunUtil",
           "type": "ForgeMod",
@@ -459,16 +469,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:mixinbootstrap:1.0.5@jar",
-          "name": "MixinBootstrap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1066150,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/MixinBootstrap-1.0.5.jar",
-            "MD5": "bd76dd9467f3bc208d37b3c827e86c38"
           }
         },
         {
