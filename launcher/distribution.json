@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "https://gridmc.io/rss/",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -11,16 +11,16 @@
       "id": "GridCraft-1.16.4",
       "name": "GridCraft (Minecraft 1.16.4)",
       "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/Grid-Gaming/gridmc/master/middleheart.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "java.gridmc.io:25565",
       "minecraftVersion": "1.16.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
