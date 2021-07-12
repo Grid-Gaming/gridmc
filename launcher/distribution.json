@@ -20,7 +20,7 @@
         "largeImageText": "Playing GridCraft on play.gridcraft.net",
         "largeImageKey": "bottomheart"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
