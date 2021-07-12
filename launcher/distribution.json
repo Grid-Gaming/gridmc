@@ -1,161 +1,161 @@
 {
   "version": "1.0.0",
-  "rss": "https://gridmc.io/rss/",
+  "rss": "https://gridcraft.net/rss/",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "793054221359382578",
+    "smallImageText": "#GridCraft",
+    "smallImageKey": "portal_1k"
   },
   "servers": [
     {
-      "id": "GridCraft-1.16.4",
-      "name": "GridCraft (Minecraft 1.16.4)",
-      "description": "GridCraft Running Minecraft 1.16.4 (Forge v35.1.4)",
-      "icon": "https://raw.githubusercontent.com/Grid-Gaming/gridmc/master/middleheart.png",
+      "id": "GridCraft-1.16.5",
+      "name": "GridCraft (Minecraft 1.16.5)",
+      "description": "GridCraft Running Minecraft 1.16.4 (Forge v36.1.0)",
+      "icon": null,
       "version": "1.0.0",
-      "address": "java.gridmc.io:25565",
-      "minecraftVersion": "1.16.4",
+      "address": "play.gridcraft.net",
+      "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "GridCraft",
+        "largeImageText": "Playing GridCraft on play.gridcraft.net",
+        "largeImageKey": "bottomheart"
       },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.16.4-35.1.4",
+          "id": "net.minecraftforge:forge:1.16.5-36.1.0",
           "name": "Minecraft Forge (base jar)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 209502,
-            "MD5": "fb74fa8090da23e20eaf34aee847d0b1",
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4.jar"
+            "size": 210269,
+            "MD5": "da6489891834453c6d4568088ac9d6fd",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0.jar"
           },
           "subModules": [
             {
-              "id": "1.16.4-35.1.4",
+              "id": "1.16.5-36.1.0",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 11928,
-                "MD5": "dcfe6fc4cd92b0fb6a27be81b862dd10",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/versions/1.16.4-forge-35.1.4/1.16.4-forge-35.1.4.json"
+                "size": 12893,
+                "MD5": "af6bb691a4aaca87be20930cb8beb763",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/versions/1.16.5-forge-36.1.0/1.16.5-forge-36.1.0.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.16.4-35.1.4:universal",
+              "id": "net.minecraftforge:forge:1.16.5-36.1.0:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2301157,
-                "MD5": "10f23d3c8f59a5872fec0225f4dd9bbd",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-universal.jar"
+                "size": 2409694,
+                "MD5": "891b41a7eaa7b1d8e0059123979afafa",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.16.4-35.1.4:client",
+              "id": "net.minecraftforge:forge:1.16.5-36.1.0:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 3967839,
-                "MD5": "dbf4b7cd04e65ebf9e7addbec63ab3d8",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-client.jar"
+                "size": 4134974,
+                "MD5": "0a9a9d5057f49e6122ee4045d08c2dd0",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.4-20201102.104115:srg",
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "artifact": {
-                "size": 11352363,
-                "MD5": "0a73c45873b79d731683c41838c3f0d0",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
+                "size": 11352644,
+                "MD5": "dcdffdd551708226cd8ae1601e453226",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.4-20201102.104115:slim",
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
               "artifact": {
-                "size": 9118628,
-                "MD5": "402c17481afa2f07a76cc90341730feb",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-slim.jar"
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.4-20201102.104115:extra",
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
               "artifact": {
-                "size": 8427976,
-                "MD5": "61ad6e5220c9da62f098d6decd638001",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-extra.jar"
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
               },
               "subModules": []
             },
             {
-              "id": "org.ow2.asm:asm:7.2",
+              "id": "org.ow2.asm:asm:9.0",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 114873,
-                "MD5": "26cf10dfd4729fd22fcae0694e041167",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm/7.2/asm-7.2.jar"
+                "size": 121783,
+                "MD5": "e87284e4421437854ba938179cf803e7",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm/9.0/asm-9.0.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:7.2",
+              "id": "org.ow2.asm:asm-commons:9.0",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 70051,
-                "MD5": "321121317a6c6221cc26e8f9ee97022f",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar"
+                "size": 71646,
+                "MD5": "e84f4f465fe607932af0d9ca4b31bce5",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:7.2",
+              "id": "org.ow2.asm:asm-tree:9.0",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 50283,
-                "MD5": "c7214695c379f25861500e576a1f8cea",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar"
+                "size": 52673,
+                "MD5": "3798070ed795cf4aa7efd7f63feec2a2",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:7.2",
+              "id": "org.ow2.asm:asm-util:9.0",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 80707,
-                "MD5": "0891d2562ab1db2a1d5fc013af9b40c5",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-util/7.2/asm-util-7.2.jar"
+                "size": 84857,
+                "MD5": "ddbcaa2262311e04a6b0560787b47da4",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:7.2",
+              "id": "org.ow2.asm:asm-analysis:9.0",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 33444,
-                "MD5": "e0aa4ec0cfa837415818aac762ed5dc2",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar"
+                "size": 33439,
+                "MD5": "daed5f6bc67ac8f01bebeca0bb72a369",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar"
               }
             },
             {
-              "id": "cpw.mods:modlauncher:8.0.6",
+              "id": "cpw.mods:modlauncher:8.0.9",
               "name": "Minecraft Forge (modlauncher)",
               "type": "Library",
               "artifact": {
-                "size": 126111,
-                "MD5": "69afb8c6a9b2e6e0f1df0ee4069fa119",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/cpw/mods/modlauncher/8.0.6/modlauncher-8.0.6.jar"
+                "size": 126196,
+                "MD5": "dae78c82a7ca7599ae6a10938cd22d58",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar"
               }
             },
             {
@@ -169,23 +169,33 @@
               }
             },
             {
-              "id": "net.minecraftforge:accesstransformers:2.2.0-shadowed",
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
               "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 445030,
-                "MD5": "6ee328e0eda1765b17fb842135d3194b",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/accesstransformers/2.2.0/accesstransformers-2.2.0-shadowed.jar"
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:3.0.5-service",
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 40979,
-                "MD5": "e6f00d34a82bd71ca95af9dd02194997",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/eventbus/3.0.5/eventbus-3.0.5-service.jar"
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
               }
             },
             {
@@ -199,13 +209,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:coremods:3.0.0",
+              "id": "net.minecraftforge:coremods:4.0.6",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 21803,
-                "MD5": "9b0b4d1d8b5815d3f693ac82d4128f13",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/coremods/3.0.0/coremods-3.0.0.jar"
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
               }
             },
             {
@@ -219,23 +229,23 @@
               }
             },
             {
-              "id": "com.electronwill.night-config:core:3.6.2",
+              "id": "com.electronwill.night-config:core:3.6.3",
               "name": "Minecraft Forge (core)",
               "type": "Library",
               "artifact": {
                 "size": 199091,
-                "MD5": "243fc0b7f1e509aaca3550c14d8f60af",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar"
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
               }
             },
             {
-              "id": "com.electronwill.night-config:toml:3.6.2",
+              "id": "com.electronwill.night-config:toml:3.6.3",
               "name": "Minecraft Forge (toml)",
               "type": "Library",
               "artifact": {
-                "size": 31152,
-                "MD5": "7b2339065e252b1c187d39351d84a09f",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar"
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
               }
             },
             {
@@ -249,23 +259,23 @@
               }
             },
             {
-              "id": "org.apache.maven:maven-artifact:3.6.0",
+              "id": "org.apache.maven:maven-artifact:3.6.3",
               "name": "Minecraft Forge (maven-artifact)",
               "type": "Library",
               "artifact": {
-                "size": 55051,
-                "MD5": "89e95013b11f347e48c0525965600404",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
               }
             },
             {
-              "id": "net.jodah:typetools:0.8.1",
+              "id": "net.jodah:typetools:0.8.3",
               "name": "Minecraft Forge (typetools)",
               "type": "Library",
               "artifact": {
-                "size": 15367,
-                "MD5": "0eb481e955b455e61bd5ea8f520f6009",
-                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/jodah/typetools/0.8.1/typetools-0.8.1.jar"
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
               }
             },
             {
@@ -317,6 +327,16 @@
                 "MD5": "1f0c4faa50360623e49b9c2522edc602",
                 "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar"
               }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
             }
           ]
         },
@@ -326,7 +346,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 304108,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/architectury-1.8.128-forge.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/architectury-1.8.128-forge.jar",
             "MD5": "a44e5d0d9c2353467c92e4805d95d38b"
           }
         },
@@ -336,7 +356,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 23749,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/BackTools-1.16.3-10.0.0.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/BackTools-1.16.3-10.0.0.jar",
             "MD5": "fa30dc84419a774644a3a91eaa5a574c"
           },
           "required": {
@@ -349,7 +369,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14413,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/BetterPingDisplay-1.16.4-1.0.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/BetterPingDisplay-1.16.4-1.0.jar",
             "MD5": "9e9f2676651af6477abc715736ecb2ca"
           }
         },
@@ -359,7 +379,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 20150,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/ChunkAnimator-1.16.5-1.2.2.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/ChunkAnimator-1.16.5-1.2.2.jar",
             "MD5": "e34187a65575992986e6629a3c39b4f6"
           },
           "required": {
@@ -372,7 +392,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10055,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/CleanView-1.16.4-v1.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/CleanView-1.16.4-v1.jar",
             "MD5": "99ecf3a6d694a4ceb18c86a1f9e9a301"
           },
           "required": {
@@ -385,7 +405,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 28826,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/ClientTweaks_1.16.3-5.2.0.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/ClientTweaks_1.16.3-5.2.0.jar",
             "MD5": "967a17f5f4918bd8d44222be4039618e"
           },
           "required": {
@@ -398,7 +418,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1338353,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/cloth-config-4.11.14-forge.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/cloth-config-4.11.14-forge.jar",
             "MD5": "d03c5c573494bb12020cb9054a7131e6"
           }
         },
@@ -408,21 +428,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 16957,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/CustomWindowTitle-1.15+v1.1.0.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/CustomWindowTitle-1.15+v1.1.0.jar",
             "MD5": "6eaa4d66bbef47bd6d4eeecf8263aeae"
-          }
-        },
-        {
-          "id": "generated.forgemod:hwyla:fabric-1.16.2-1.9.23-79@jar",
-          "name": "Hwyla",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 267781,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/Hwyla-fabric-1.16.2-1.9.23-79.jar",
-            "MD5": "72046a67875fc5747346effd9015adfb"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -431,7 +438,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 175464,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/Hwyla-forge-1.10.11-B78_1.16.2.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/Hwyla-forge-1.10.11-B78_1.16.2.jar",
             "MD5": "1bd70c1ad7614bb2df8c95a85ade97eb"
           }
         },
@@ -441,7 +448,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 410344,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/iChunUtil-1.16.3-10.0.0.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/iChunUtil-1.16.3-10.0.0.jar",
             "MD5": "2a6662c649791d5a0ea290d3c190b410"
           }
         },
@@ -451,7 +458,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 776266,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/jei-1.16.4-7.6.1.71.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/jei-1.16.4-7.6.1.71.jar",
             "MD5": "37f1a6cc8931c26e83b18d035259c3be"
           },
           "required": {
@@ -464,7 +471,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 91778,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/optionalon/light-overlay-5.8.0.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/light-overlay-5.8.0.jar",
             "MD5": "1f2ea4091d5e512e8599bac0ec8a7e7e"
           },
           "required": {
@@ -477,7 +484,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 181699,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/forgemods/required/OptiForge-MC1.16.4-0.4.6.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/required/OptiForge-MC1.16.4-0.4.6.jar",
             "MD5": "43347d312953ac4df8e135d0d98866ae"
           }
         },
@@ -487,7 +494,7 @@
           "type": "File",
           "artifact": {
             "size": 5923611,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/mods/OptiFine_1.16.4_HD_U_G7.jar",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/mods/OptiFine_1.16.4_HD_U_G7.jar",
             "MD5": "fe84aad0d9056b19692dcb5db9d9f2c9",
             "path": "mods/OptiFine_1.16.4_HD_U_G7.jar"
           }
@@ -498,7 +505,7 @@
           "type": "File",
           "artifact": {
             "size": 0,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/texts/splashes.txt",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/texts/splashes.txt",
             "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "resourcepacks/gridtxt/assets/minecraft/texts/splashes.txt"
           }
@@ -509,7 +516,7 @@
           "type": "File",
           "artifact": {
             "size": 1565799,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png",
             "MD5": "3e9feaf8c4abe5c3b0b6611abcb653e2",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_0.png"
           }
@@ -520,7 +527,7 @@
           "type": "File",
           "artifact": {
             "size": 1709943,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png",
             "MD5": "46d546fb37c85991c5b4772e43ed9a9a",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_1.png"
           }
@@ -531,7 +538,7 @@
           "type": "File",
           "artifact": {
             "size": 1504686,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png",
             "MD5": "0e6f9508d60aa52e9f2ac176bf1351a3",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_2.png"
           }
@@ -542,7 +549,7 @@
           "type": "File",
           "artifact": {
             "size": 1589989,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png",
             "MD5": "c850e5468f8b4498616f17b2a487efa8",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_3.png"
           }
@@ -553,7 +560,7 @@
           "type": "File",
           "artifact": {
             "size": 688446,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png",
             "MD5": "2db2c5b91aba4ba293a33503a2c60bce",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_4.png"
           }
@@ -564,7 +571,7 @@
           "type": "File",
           "artifact": {
             "size": 1530697,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png",
             "MD5": "18d74909523cf629c9c9ce1604e71e8e",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_5.png"
           }
@@ -575,7 +582,7 @@
           "type": "File",
           "artifact": {
             "size": 86,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png",
             "MD5": "6f0586674230fea965409aed8ae43815",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
           }
@@ -586,7 +593,7 @@
           "type": "File",
           "artifact": {
             "size": 16292,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png",
             "MD5": "b04aaa3ba1e51c2435ccd5a68527501e",
             "path": "resourcepacks/gridtxt/assets/minecraft/textures/gui/title/minecraft.png"
           }
@@ -596,9 +603,9 @@
           "name": "pack.mcmeta",
           "type": "File",
           "artifact": {
-            "size": 112,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/pack.mcmeta",
-            "MD5": "0008891e3125fbecdffe54d60f81f4d6",
+            "size": 117,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/pack.mcmeta",
+            "MD5": "219d28ef123a87f67708a0059ecbee88",
             "path": "resourcepacks/gridtxt/pack.mcmeta"
           }
         },
@@ -608,7 +615,7 @@
           "type": "File",
           "artifact": {
             "size": 25742,
-            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.4/files/resourcepacks/gridtxt/pack.png",
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/files/resourcepacks/gridtxt/pack.png",
             "MD5": "2c1a5ce3a7ab9110f80cc262e3bd3f31",
             "path": "resourcepacks/gridtxt/pack.png"
           }

@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///H:/GridCraftLauncher/testing/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "GridCraft (Minecraft 1.16.5)",
+    "description": "GridCraft Running Minecraft 1.16.4 (Forge v36.1.0)",
+    "address": "play.gridcraft.net",
+    "discord": {
+      "shortId": "GridCraft",
+      "largeImageText": "Playing GridCraft on play.gridcraft.net",
+      "largeImageKey": "bottomheart"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.1.0"
+  },
+  "untrackedFiles": []
+}
