@@ -13,7 +13,7 @@
       "description": "GridCraft Running Minecraft 1.16.4 (Forge v36.1.0)",
       "icon": null,
       "version": "1.0.0",
-      "address": "java.gridcraft.net:25565",
+      "address": "play.gridcraft.net",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "GridCraft",
@@ -21,7 +21,7 @@
         "largeImageKey": "bottomheart"
       },
       "mainServer": false,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.16.5-36.1.0",
