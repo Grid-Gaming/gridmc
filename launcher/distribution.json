@@ -489,6 +489,19 @@
           }
         },
         {
+          "id": "technicianlp.reauth:reauth:3.9.3@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38126,
+            "url": "http://github.com/Grid-Gaming/gridmc/raw/master/launcher/servers/GridCraft-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-3.9.3.jar",
+            "MD5": "3b3095744e922d89ab6443529865df43"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "OptiFine_1.16.4_HD_U_G7.jar",
           "name": "OptiFine_1.16.4_HD_U_G7.jar",
           "type": "File",
