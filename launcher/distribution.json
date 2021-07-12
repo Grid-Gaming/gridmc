@@ -13,7 +13,7 @@
       "description": "GridCraft Running Minecraft 1.16.4 (Forge v36.1.0)",
       "icon": null,
       "version": "1.0.0",
-      "address": "play.gridcraft.net",
+      "address": "java.gridcraft.net",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "GridCraft",
