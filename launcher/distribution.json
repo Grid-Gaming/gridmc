@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "GridCraft-1.16.5",
-      "name": "GridCraft ",
+      "name": "GridCraft 1.16.5",
       "description": "GridCraft Running Minecraft 1.16.4 (Forge v36.1.0)",
       "icon": null,
       "version": "1.0.0",
