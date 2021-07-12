@@ -20,8 +20,8 @@
         "largeImageText": "Playing GridCraft on play.gridcraft.net",
         "largeImageKey": "bottomheart"
       },
-      "mainServer": false,
-      "autoconnect": true,
+      "mainServer": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.16.5-36.1.0",
