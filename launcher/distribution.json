@@ -13,7 +13,7 @@
       "description": "GridCraft Running Minecraft 1.16.5 (Forge v36.1.0)",
       "icon": "SealCircle.png",
       "version": "1.0.0",
-      "address": "java.gridcraft.net:25565",
+      "address": "java.gridmc.io",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "GridCraft",
