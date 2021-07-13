@@ -11,7 +11,7 @@
       "id": "GridCraft-1.16.5",
       "name": "GridCraft",
       "description": "GridCraft Running Minecraft 1.16.4 (Forge v36.1.0)",
-      "icon": null,
+      "icon": "icon.ico",
       "version": "1.0.0",
       "address": "java.gridcraft.net",
       "minecraftVersion": "1.16.5",
